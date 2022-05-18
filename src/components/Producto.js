@@ -23,7 +23,7 @@ class Producto extends Component {
             <h3>{producto.name}</h3>
             <p>{producto.price}</p>
             <Button onClick={() => agregarAlCarro(producto)}>
-                Agregar al carro
+                Add to cart
             </Button>
         </div>
     );

@@ -28,7 +28,7 @@ class Carro extends Component {
           {cantidad !== 0 ? <BubbleAlert value={cantidad} /> : null}
         </span>
         <button onClick={mostrarCarro} style={styles.carro}>
-          Carro
+          Cart
         </button>
         {esCarroVisible ? <DetallesCarro carro={carro} /> : null}
       </div>
